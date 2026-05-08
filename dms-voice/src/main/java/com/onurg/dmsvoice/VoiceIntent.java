@@ -1,0 +1,14 @@
+package com.onurg.dmsvoice;
+
+public enum VoiceIntent {
+    SEND_MESSAGE_TO_CONTACT,
+    SEND_MESSAGE_TO_GROUP,
+    SEARCH_MESSAGES,
+    SEARCH_ARCHIVE,
+    CLEAR_CONVERSATION,
+    LOGOUT,
+    SWITCH_AUDIO,
+    ARCHIVE_MESSAGES,
+    DELETE_MESSAGES,
+    UNKNOWN
+}
